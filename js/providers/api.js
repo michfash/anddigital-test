@@ -2,7 +2,7 @@
 export default class Api {
 
   //class constructor
-  constructor(method, url, send_async = false) {
+  constructor(method, url, send_async = true) {
 
     //set object properties
     this.connection = {};
